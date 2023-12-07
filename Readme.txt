@@ -1,0 +1,6 @@
+- Create a virtual environment and install Requirements.txt
+- Migrate using this command:  python manage.py migrate 
+- Change in settings.py file change database to postgreSQL, use your own username and password
+- Use PgAdmin (https://www.pgadmin.org/) for PostgreSQL
+- Run the application using this command: python manage.py runserver
+- It will run on by default port 8000, if 8000 port is not available it will use other available ports.
